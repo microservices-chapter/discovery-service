@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: discovery-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://config:8888
+      fail-fast: true
+      password: foo
+      username: user
+
